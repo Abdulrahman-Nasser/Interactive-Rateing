@@ -1,0 +1,120 @@
+body{
+    background-color: hsl(216, 12%, 8%);
+    color:hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+}
+.p-70{
+    padding: 70px 0;
+}
+p{
+    color: hsl(216, 12%, 54%);
+}
+/* /////// */
+.icon i{
+    color: hsl(25, 97%, 53%);
+    font-size: 16px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 100%;
+    padding: 15px;
+}
+.rating-text{
+    padding: 20px;
+    background-color: hsl(215, 24%, 14%);
+    border-radius: 20px;
+}
+.bg-clicked{
+    background-color: hsl(216, 12%, 54%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 100%;
+    padding: 10px 15px;
+    border: none;
+}
+.rating-text h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.btns-rating{
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(216, 12%, 54%);
+    border-radius: 100%;
+    padding: 10px 15px;
+    
+}
+.btn:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+.submit{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    width: 95%;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 12px 0;
+    border: none;
+    transition: all .3s;
+    
+}
+.submit:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+.rating-bg{
+    background-color: hsl(213, 19%, 18%);
+}
+.thank-msg{
+    background-color: hsl(214, 26%, 12%);
+    border-radius: 20px;
+    padding: 15px;
+    display: none;
+}
+.thank-msg-text .span-rating{
+    background-color: hsl(213, 19%, 18%);
+    margin: auto;
+    padding: 10px 20px;
+    font-size: 15px;
+    color: hsl(25, 97%, 53%);
+    border-radius: 40px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(25, 97%, 53%);
+}
+/*//////////////////////*/
+@media screen and (max-width:600px) {
+    .col-lg-2{
+        width: 15% !important;
+        margin: 8px !important;
+    }
+    .col-lg-6 {
+        padding: 8px !important;
+    }
+    .rating-text{
+        padding: 17px 7px !important;
+        width: 100%;
+    }
+    .submit{
+        width: 97%;
+    }
+    .p-3{
+        padding: 8px !important;
+    }
+    .thank-msg{
+        padding: 10px 3px !important;
+    }
+    .col-sm{
+        padding: 8px 0 !important;
+    }
+    
+}
